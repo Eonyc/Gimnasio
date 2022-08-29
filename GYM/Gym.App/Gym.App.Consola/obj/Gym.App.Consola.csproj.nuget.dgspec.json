@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Consola\\Gym.App.Consola.csproj": {}
+  },
+  "projects": {
+    "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Consola\\Gym.App.Consola.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Consola\\Gym.App.Consola.csproj",
+        "projectName": "Gym.App.Consola",
+        "projectPath": "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Consola\\Gym.App.Consola.csproj",
+        "packagesPath": "C:\\Users\\Jesus Fdo Martinez I\\.nuget\\packages\\",
+        "outputPath": "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Consola\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jesus Fdo Martinez I\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj": {
+                "projectPath": "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
+        "projectName": "Gym.App.Dominio",
+        "projectPath": "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Jesus Fdo Martinez I\\.nuget\\packages\\",
+        "outputPath": "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jesus Fdo Martinez I\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj",
+        "projectName": "Gym.App.Persistencia",
+        "projectPath": "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Persistencia\\Gym.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Jesus Fdo Martinez I\\.nuget\\packages\\",
+        "outputPath": "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jesus Fdo Martinez I\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj": {
+                "projectPath": "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

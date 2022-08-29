@@ -1,0 +1,12 @@
+E:\UCaldas\Ciclo 3\Proyecto_GYM\GYM\Gym.App\Gym.App.Persistencia\bin\Debug\netstandard2.1\Gym.App.Persistencia.deps.json
+E:\UCaldas\Ciclo 3\Proyecto_GYM\GYM\Gym.App\Gym.App.Persistencia\bin\Debug\netstandard2.1\Gym.App.Persistencia.dll
+E:\UCaldas\Ciclo 3\Proyecto_GYM\GYM\Gym.App\Gym.App.Persistencia\bin\Debug\netstandard2.1\Gym.App.Persistencia.pdb
+E:\UCaldas\Ciclo 3\Proyecto_GYM\GYM\Gym.App\Gym.App.Persistencia\bin\Debug\netstandard2.1\Gym.App.Dominio.dll
+E:\UCaldas\Ciclo 3\Proyecto_GYM\GYM\Gym.App\Gym.App.Persistencia\bin\Debug\netstandard2.1\Gym.App.Dominio.pdb
+E:\UCaldas\Ciclo 3\Proyecto_GYM\GYM\Gym.App\Gym.App.Persistencia\obj\Debug\netstandard2.1\Gym.App.Persistencia.csprojAssemblyReference.cache
+E:\UCaldas\Ciclo 3\Proyecto_GYM\GYM\Gym.App\Gym.App.Persistencia\obj\Debug\netstandard2.1\Gym.App.Persistencia.AssemblyInfoInputs.cache
+E:\UCaldas\Ciclo 3\Proyecto_GYM\GYM\Gym.App\Gym.App.Persistencia\obj\Debug\netstandard2.1\Gym.App.Persistencia.AssemblyInfo.cs
+E:\UCaldas\Ciclo 3\Proyecto_GYM\GYM\Gym.App\Gym.App.Persistencia\obj\Debug\netstandard2.1\Gym.App.Persistencia.csproj.CoreCompileInputs.cache
+E:\UCaldas\Ciclo 3\Proyecto_GYM\GYM\Gym.App\Gym.App.Persistencia\obj\Debug\netstandard2.1\Gym.App.Persistencia.csproj.CopyComplete
+E:\UCaldas\Ciclo 3\Proyecto_GYM\GYM\Gym.App\Gym.App.Persistencia\obj\Debug\netstandard2.1\Gym.App.Persistencia.dll
+E:\UCaldas\Ciclo 3\Proyecto_GYM\GYM\Gym.App\Gym.App.Persistencia\obj\Debug\netstandard2.1\Gym.App.Persistencia.pdb

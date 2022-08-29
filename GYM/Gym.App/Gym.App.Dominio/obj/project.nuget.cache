@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7stCJAU+lUygcq36VUN6+LERw7K3wTi98VTSlk+tbpM9fnwDzgaT21IujIoTHrDsfRhTALVT6XSmM4/LAc9mvA==",
+  "success": true,
+  "projectFilePath": "E:\\UCaldas\\Ciclo 3\\Proyecto_GYM\\GYM\\Gym.App\\Gym.App.Dominio\\Gym.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jesus Fdo Martinez I\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jesus Fdo Martinez I\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
