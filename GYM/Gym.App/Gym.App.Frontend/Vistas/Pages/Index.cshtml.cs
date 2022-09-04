@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
  // código para insertar páginas
- //  dotnet new page -n ProgramasEjercicio -na Vistas.Pages -o .\
+ //  dotnet new page -n ProgramasEjercicio -na Vistas.Pages -o .\Pages\
 namespace Vistas.Pages
 {
     public class IndexModel : PageModel
