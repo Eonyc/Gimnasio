@@ -4,4 +4,71 @@
     ViewData["Title"] = "Programas de Ejercicio";
 }
 
-<h1>Hola mundo!</h1>
+
+<body>
+    <h1>Your Exercise Routines for Today!</h1>
+    <form>
+        <h2 class="tit1">Body Part</h2>
+        <input list="BodyPart" name="BodyPart">
+        <datalist id="BodyPart">
+          <option value="Upper Body"></option>
+          <option value="Lower Body"></option>
+          <option value="Core Abdominal"></option>
+        </datalist>
+        <br><br>
+        <h2 class="tit1">Categories</h2>
+        <input list="Categorias" name="Categories">
+        <datalist id="Categorias">
+          <option value="Hit"></option>
+          <option value="Power"></option>
+          <option value="Pilates"></option>
+          <option value="Kickboxing"></option>
+          <option value="Cardio"></option>
+          <option value="Dance"></option>
+        </datalist>
+        <br><br>
+        <h2 class="tit1">Exercise</h2>
+        <input list="Ejercicios1" name="Exercise">
+        <datalist id="Ejercicios1">
+          <option value="Slap push-ups"></option>
+          <option value="Inclined push-ups"></option>
+          <option value="Biceps curl with dumbbells"></option>
+          <option value="Triceps with dumbbells"></option>
+          <option value="Front elevations with dumbbells"></option>
+        </datalist>
+        <br><br>
+        <h2 class="tit1">Level</h2>
+        <input list="nivel" name="Level1">
+        <datalist id="nivel">
+          <option value="Beginner"></option>
+          <option value="Intermediate"></option>
+          <option value="Advanced"></option>
+        </datalist>
+        <br><br>
+        <h2 class="tit1">Intensity</h2>
+        <input list="Intensidad" name="Intensity1">
+        <datalist id="intensidad">
+          <option value="High"></option>
+          <option value="Middle"></option>
+          <option value="Low"></option>
+        </datalist>
+        <br><br>
+        <input type="submit">
+
+    </form>
+
+    <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+
+    <p> The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:</p>
+        <p>When the target attribute of a link matches the name of an iframe, the link will open in the iframes.</p>    
+        <iframe src="https://www.w3schools.com" name="iframe_a" height="300px" width="100%" title="Iframe Examples"></iframe>
+        <p><a href="https://www.w3schools.com" target="iframe_a">W3Schooools.com</a></p>
+
+   
+
+</body>
+
+   
+   

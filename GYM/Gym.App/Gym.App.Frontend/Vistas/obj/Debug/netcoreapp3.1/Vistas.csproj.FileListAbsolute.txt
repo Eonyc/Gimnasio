@@ -36,3 +36,7 @@ C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Trabajo en equipo - GYM\GYM\Gimnasio\GYM\Gym.App\Gym.App.FrontEnd\Vistas\obj\Debug\netcoreapp3.1\Vistas.genruntimeconfig.cache
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Trabajo en equipo - GYM\GYM\Gimnasio\GYM\Gym.App\Gym.App.FrontEnd\Vistas\obj\Debug\netcoreapp3.1\Vistas.csproj.CopyComplete
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Trabajo en equipo - GYM\GYM\Gimnasio\GYM\Gym.App\Gym.App.FrontEnd\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\ProgramasEjercicio.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Trabajo en equipo - GYM\GYM\Gimnasio\GYM\Gym.app\Gym.App.Frontend\vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Trabajo en equipo - GYM\GYM\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Trabajo en equipo - GYM\GYM\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Customer.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Trabajo en equipo - GYM\GYM\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Nutrition.cshtml.g.cs
