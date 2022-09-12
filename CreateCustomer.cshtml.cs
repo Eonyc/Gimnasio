@@ -30,7 +30,7 @@ namespace Gym.App.Presentacion.Pages
         //La caracteristica [async] me permite tener el tiempo necesario
         //la conexion a la BD para transmitir los datos. Y me envia como
         //respuesta una accion.
-        public async Task<IActionResult> onPost(){
+        public async Task<IActionResult> OnPost(){
             if(!ModelState.IsValid){
                 //Como la info no se ha ido, quedese en la pagina.
                 return Page();
