@@ -1,0 +1,31 @@
+﻿@page
+@model Gym.App.Presentacion.Pages.QueryCustomersModel
+@{
+}
+<!-- clase bootstrap "text-info"-->
+<h2 class="text-info" style="text-align: center;" >Lista de Clientes</h2>
+<!-- clase bootstrap "border"-->
+<div class="border">
+    <table>
+        <!-- <tr> = filas y las <td> = columnas -->
+        <tr>
+            <td>Cedula</td>
+            <td>Nombre</td>
+            <td>Apellido</td>
+            <td>Edad</td>
+            <td>Telefono</td>
+            <td>Direccion</td>
+        </tr>
+        @foreach(var reg in Model.lstCustomer){
+            <tr>
+                <td>@reg.Dni</td>
+                <td>@reg.Name</td>
+                <td>@reg.Surname</td>
+                <td>@reg.Age</td>
+                <td>@reg.Telephone</td>
+                <td>@reg.Address</td>   
+            </tr>
+        }
+    </table>
+
+</div>

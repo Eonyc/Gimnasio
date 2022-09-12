@@ -1,6 +1,8 @@
 //Vamos a usar el paquete del sistema
 using System;
 using System.Collections.Generic;
+//El sgte paquete me permite incluir validaciones
+using System.ComponentModel.DataAnnotations;
 
 //Definimos la capa a utilizar
 namespace Gym.App.Dominio
@@ -9,10 +11,15 @@ namespace Gym.App.Dominio
         //Definimos la funcionalidad de Propiedades, usando la
         //notacion Pascal (1mer caracter del atributo en Mayuscula).
         public int Id {get; set;}
+        //[Required] validacion, campo requerido
+        [RegularExpression("(^[0-9]+$)", ErrorMessage = "Solo se permiten números")]
         public int Dni {get; set;}
+        [Required]
         public string Name {get; set;} 
         public string Surname {get; set;}
+        [RegularExpression("(^[0-9]+$)", ErrorMessage = "Solo se permiten números")]
         public int Age {get; set;}
+        [Required]
         public string Telephone {get; set;}
         public string Address {get; set;} 
         //Definimos las relaciones de ASOCIACION

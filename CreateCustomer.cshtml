@@ -1,0 +1,114 @@
+﻿@page
+@model Gym.App.Presentacion.Pages.CreateCustomerModel
+@{
+}
+<head>
+    <!-- se vincula al hoja de estilo para definir el aspecto del formulario de Registro-->  
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<br>
+<h1 class="text-info" style="text-align: center;">Create Customer</h1>
+<!-- La etiqueta [div] crea un [Contenedor] -->
+<div class="border">
+    <!-- Metodo [post] envia la informacion del formulario -->
+    <form action="" method="post">
+        <!-- [asp] metodo de .NET; [validation-summary] implementa un resumen de validaciones dentro del modelo, siempre y cuando
+        se incluya  en las Entidades del Dominio o en la clase del formulario -->
+        <!-- [text-danger] clase de bootstrap -->
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <!-- [padding: 10px] genera un margen a la izquierda de 10px -->
+        <div class="container" style="padding: 10px;">
+            <div class="form-group">
+                <!-- Caracteristica: Cada pagina esta dividida en 12 columnas del mismo tamaño. Por lo tanto,
+                la suma de las clases [col-sm-N] NO debe exceder de 12 -->
+                <div class="row">
+                    <!-- [col-sm-2] clase de bootstrap que toma espacios de "n" columnas, en este caso 2 -->
+                    <div class="col-sm-1">
+                         <!-- Muestra la PROPIEDAD [Name] que hace referencia al objeto [Customer] -->
+                         <!-- El objeto [Customer] debe inicializarse en [CreateRecord.cshtml.cs] -->
+                        <label asp-for="Customer.Dni"></label>
+                     </div>
+                     <div class="col-sm-3">
+                        <!-- La etiqueta [input] con el metodo [asp] construye una instancia del objeto [Customer] -->
+                        <!-- [form-control] clase de bootstrap, coloca el cajon del input en azul, cuando el cursor esta dentro -->
+                        <input asp-for="Customer.Dni" class="form-control">
+                     </div>
+                     <!-- [asp-validation-for] Toma una validacion especificamente en la PROPIEDAD [Name] de la clase [Customer] -->
+                     <span asp-validation-for="Customer.Dni" class="text-danger"></span>
+                </div>   
+            </div>
+            <br><hr class="hr">
+            <!-- De aqui en adelante se repiten los elementos del formulario, solo es copiar y pegar; recuerde cambiar la PROPIEDAD,
+            en este caso es [Name] -->
+            <br>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <label asp-for="Customer.Name"></label>
+                     </div>
+                     <div class="col-sm-3">
+                        <input asp-for="Customer.Name" class="form-control">
+                     </div>
+                     <span asp-validation-for="Customer.Name" class="text-danger"></span>
+                     <div class="col-sm-1">
+                        <label asp-for="Customer.Surname"></label>
+                     </div>
+                     <div class="col-sm-3">
+                        <input asp-for="Customer.Surname" class="form-control">
+                     </div>
+                     <span asp-validation-for="Customer.Surname" class="text-danger"></span>
+                </div>   
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <label asp-for="Customer.Age"></label>
+                     </div>
+                     <div class="col-sm-3">
+                        <input asp-for="Customer.Age" class="form-control">
+                     </div>
+                     <span asp-validation-for="Customer.Age" class="text-danger"></span>
+                     <div class="col-sm-1">
+                        <label asp-for="Customer.Telephone"></label>
+                     </div>
+                     <div class="col-sm-3">
+                        <input asp-for="Customer.Telephone" class="form-control">
+                     </div>
+                     <span asp-validation-for="Customer.Telephone" class="text-danger"></span>
+                </div>   
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <label asp-for="Customer.Address"></label>
+                     </div>
+                     <div class="col-sm-3">
+                        <input asp-for="Customer.Address" class="form-control">
+                     </div>
+                     <span asp-validation-for="Customer.Address" class="text-danger"></span>
+                </div>   
+            </div>
+            <br><hr class="hr">
+            <br>
+            <div class="form-group">
+                <div class="row">
+                    <!-- La clase [offset-sm-4] corre el boton submit 4 columnas a la derecha -->
+                    <div class="col-sm-2 offset-sm-4">
+                        <!-- La clase [btn btn-primary] boton de bootstrap -->
+                        <input type="submit" value="Create" class="btn btn-primary form-control">
+                     </div>
+                     <div class="col-sm-2">
+                          <a asp-page="/Index" class="btn btn-success form-control">Return</a>                      
+                     </div>
+                </div>
+            </div>
+            <br><hr class="hr">
+            <br>
+            <div class="form-group">
+                <div class="row">
+                     <div class="opcioncontra"><a href="">You don't have credentials? Create</a></div>
+                </div>   
+            </div>
+        </div>
+    </form>
+</div>
