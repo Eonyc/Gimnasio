@@ -40,3 +40,45 @@ C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Trabajo en equipo - GYM\GYM\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Trabajo en equipo - GYM\GYM\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Customer.cshtml.g.cs
 C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Trabajo en equipo - GYM\GYM\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Nutrition.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\bin\Debug\netcoreapp3.1\Vistas.exe
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\bin\Debug\netcoreapp3.1\Vistas.deps.json
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\bin\Debug\netcoreapp3.1\Vistas.runtimeconfig.json
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\bin\Debug\netcoreapp3.1\Vistas.runtimeconfig.dev.json
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\bin\Debug\netcoreapp3.1\Vistas.dll
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\bin\Debug\netcoreapp3.1\Vistas.pdb
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\bin\Debug\netcoreapp3.1\Vistas.Views.dll
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\bin\Debug\netcoreapp3.1\Vistas.Views.pdb
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.csprojAssemblyReference.cache
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.AssemblyInfoInputs.cache
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.AssemblyInfo.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.RazorAssemblyInfo.cache
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.RazorAssemblyInfo.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.TagHelpers.input.cache
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.TagHelpers.output.cache
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.RazorCoreGenerate.cache
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Customer.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Nutrition.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\ProgramasEjercicio.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.RazorTargetAssemblyInfo.cache
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.RazorTargetAssemblyInfo.cs
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.Views.pdb
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\staticwebassets\Vistas.StaticWebAssets.Manifest.cache
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\staticwebassets\Vistas.StaticWebAssets.xml
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.dll
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.pdb
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.genruntimeconfig.cache
+C:\Users\alexa\OneDrive\Escritorio\curso misión TIC 2022\Desarrollo de Software\Gym Definitivo\Gimnasio\GYM\Gym.App\Gym.App.Frontend\Vistas\obj\Debug\netcoreapp3.1\Vistas.csproj.CopyComplete

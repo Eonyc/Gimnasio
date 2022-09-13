@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Trabajo en equipo - GYM\\GYM\\Gimnasio\\GYM\\Gym.App\\Gym.App.Frontend\\Vistas\\Vistas.csproj": {}
+    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Definitivo\\Gimnasio\\GYM\\Gym.App\\Gym.App.Frontend\\Vistas\\Vistas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Trabajo en equipo - GYM\\GYM\\Gimnasio\\GYM\\Gym.App\\Gym.App.Frontend\\Vistas\\Vistas.csproj": {
+    "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Definitivo\\Gimnasio\\GYM\\Gym.App\\Gym.App.Frontend\\Vistas\\Vistas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Trabajo en equipo - GYM\\GYM\\Gimnasio\\GYM\\Gym.App\\Gym.App.Frontend\\Vistas\\Vistas.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Definitivo\\Gimnasio\\GYM\\Gym.App\\Gym.App.Frontend\\Vistas\\Vistas.csproj",
         "projectName": "Vistas",
-        "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Trabajo en equipo - GYM\\GYM\\Gimnasio\\GYM\\Gym.App\\Gym.App.Frontend\\Vistas\\Vistas.csproj",
+        "projectPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Definitivo\\Gimnasio\\GYM\\Gym.App\\Gym.App.Frontend\\Vistas\\Vistas.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Trabajo en equipo - GYM\\GYM\\Gimnasio\\GYM\\Gym.App\\Gym.App.Frontend\\Vistas\\obj\\",
+        "outputPath": "C:\\Users\\alexa\\OneDrive\\Escritorio\\curso misión TIC 2022\\Desarrollo de Software\\Gym Definitivo\\Gimnasio\\GYM\\Gym.App\\Gym.App.Frontend\\Vistas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config"
