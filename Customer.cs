@@ -12,12 +12,12 @@ namespace Gym.App.Dominio
         //notacion Pascal (1mer caracter del atributo en Mayuscula).
         public int Id {get; set;}
         //[Required] validacion, campo requerido
-        [RegularExpression("(^[0-9]+$)", ErrorMessage = "Solo se permiten números")]
+        [RegularExpression("(^[0-9]+$)", ErrorMessage = "only numbers")]
         public int Dni {get; set;}
         [Required]
         public string Name {get; set;} 
         public string Surname {get; set;}
-        [RegularExpression("(^[0-9]+$)", ErrorMessage = "Solo se permiten números")]
+        [RegularExpression("(^[0-9]+$)", ErrorMessage = "only numbers")]
         public int Age {get; set;}
         [Required]
         public string Telephone {get; set;}

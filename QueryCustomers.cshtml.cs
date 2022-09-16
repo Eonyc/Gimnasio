@@ -27,11 +27,12 @@ namespace Gym.App.Presentacion.Pages
 
         } 
 
-        public void OnGet()
+        public void OnGet(int customerId)
         {
             //inicializo la lst vacia
             lstCustomer = new List<Customer>();
             lstCustomer = _repoCustomer.consultCustomers();
+            _repoCustomer.deleteCustomer(customerId); 
         }
     }
 }

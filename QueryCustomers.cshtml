@@ -16,6 +16,7 @@
             <td>Telephone</td>
             <td>Address</td>
             <td>Edition</td>
+            <td>Delete</td>
         </tr>
         @foreach(var reg in Model.lstCustomer){
             <tr>
@@ -27,7 +28,11 @@
                 <td>@reg.Address</td>
                 <td>
                     <a type="button" asp-page="/Customers/EditionCustomer" class="btn btn-success" asp-route-customerId=@reg.Id>Edition</a>
-                </td>   
+                </td>
+                <td>
+                    <a type="button" class="btn btn-danger" asp-route-customerId=@reg.Id>Delete</a>
+                </td>
+
             </tr>
         }
     </table>

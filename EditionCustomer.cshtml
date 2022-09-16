@@ -13,7 +13,11 @@
 <div class="border">
     <!-- Metodo [post] envia la informacion del formulario -->
     <form method="post">
-
+        <!-- Capturo el Id y el Dni del Cliente y lo oculto para que NO se 
+        muestre en el formulario con el atributo [hidden]-->
+        <input type="hidden" asp-for="Customer.Id">
+        <input type="hidden" asp-for="Customer.Dni">
+        <br>
         <!-- [padding: 10px] genera un margen a la izquierda de 10px -->
         <div class="container" style="padding: 10px;">
             <div class="form-group">
@@ -70,10 +74,10 @@
                     <!-- La clase [offset-sm-4] corre el boton submit 4 columnas a la derecha -->
                     <div class="col-sm-2 offset-sm-4">
                         <!-- La clase [btn btn-primary] boton de bootstrap -->
-                        <input type="submit" value="Create" class="btn btn-primary form-control">
+                        <input type="submit" value="Update" class="btn btn-primary form-control">
                      </div>
                      <div class="col-sm-2">
-                          <a asp-page="/Index" class="btn btn-success form-control">Return</a>                      
+                          <a asp-page="/Customers/QueryCustomers" class="btn btn-success form-control">Return</a>                      
                      </div>
                 </div>
             </div>
