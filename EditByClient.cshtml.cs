@@ -10,13 +10,13 @@ using Gym.App.Persistencia;
 
 namespace Gym.App.Presentacion.Pages
 {
-    public class QueryByClientModel : PageModel
+    public class EditByClientModel : PageModel
     {
         private readonly IRepositorioCustomer _repoCustomer;
         [BindProperty]
         public Customer customer {get; set;}
 
-        public QueryByClientModel(IRepositorioCustomer repoCustomer){
+        public EditByClientModel(IRepositorioCustomer repoCustomer){
             _repoCustomer = repoCustomer;
         }
 
@@ -24,11 +24,15 @@ namespace Gym.App.Presentacion.Pages
         {
             customer = new Customer();
         }
+
         public async Task<IActionResult> OnPost(){
             customer = _repoCustomer.consultCustomerByDni(customer.Dni);
             if (customer==null){
+                //Si no encuentra el cliente por su Dni, entonces se redirecciona a la
+                //pagina de Error.
                 return RedirectToPage("/Error");
             }
+            //Si lo encuentra nos deja en la misma pagina para seguir contruyendo la pagina
             return Page();
         }
         //Como en la pagina [cshtml] tenemos dos metodos [post] una apunta a una

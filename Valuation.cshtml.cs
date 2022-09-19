@@ -22,18 +22,19 @@ namespace Gym.App.Presentacion.Pages
         }     
         public void OnGet()
         {
-            value = new Value();
+            value    = new Value();
             customer = new Customer();  
         }
 
         public async Task<IActionResult> OnPost(int customerId){
+            Console.WriteLine(customerId);
             customer = _repoCustomer.consultCustomer(customerId);
             if (customer!=null){
-                if(customer==null){
-                    customer.Value = new List<Value>();
-                    customer.Value.Add(value); 
+                if(customer.Values==null){
+                    customer.Values = new List<Value>();
+                    customer.Values.Add(value); 
                 }else{
-                   customer.Value.Add(value);  
+                   customer.Values.Add(value);  
                 }
                 _repoCustomer.updateCustomer(customer);
                 return Page();

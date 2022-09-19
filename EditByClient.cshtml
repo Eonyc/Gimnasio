@@ -1,10 +1,10 @@
 ﻿@page
-@model Gym.App.Presentacion.Pages.QueryByClientModel
+@model Gym.App.Presentacion.Pages.EditByClientModel
 @{
 }
 
 <br>
-<h1 class="text-info" style="text-align: center;">Search by Client</h1>
+<h1 class="text-info" style="text-align: center;">Edit by Client</h1>
 <div class="border">
     <form method="post">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -26,7 +26,8 @@
 </div>
 
 <div class="border">
-    <!-- Se redirecciona al metodo OnPost que se llama [OnPostEdit] -->
+    <!-- Se redirecciona al metodo OnPost en la Clase [EditByClient.cshtml.cs]
+     que se llama [OnPostEdit] -->
     <form method="post"  asp-page-handler="Edit">
         <!-- Capturo el Id y el Dni del Cliente y lo oculto para que NO se 
         muestre en el formulario con el atributo [hidden]-->
@@ -39,47 +40,47 @@
                 <div class="row">
                     <div class="col-sm-1">
                         <label asp-for="customer.Name"></label>
-                     </div>
-                     <div class="col-sm-3">
+                    </div>
+                    <div class="col-sm-3">
                         <input asp-for="customer.Name" class="form-control">
-                     </div>
-                     <span asp-validation-for="customer.Name" class="text-danger"></span>
-                     <div class="col-sm-1">
+                    </div>
+                    <span asp-validation-for="customer.Name" class="text-danger"></span>
+                    <div class="col-sm-1">
                         <label asp-for="customer.Surname"></label>
-                     </div>
-                     <div class="col-sm-3">
-                        <input asp-for="customer.Surname" class="form-control">
-                     </div>
-                     <span asp-validation-for="customer.Surname" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-3">
+                       <input asp-for="customer.Surname" class="form-control">
+                    </div>
+                    <span asp-validation-for="customer.Surname" class="text-danger"></span>
                 </div>   
             </div>
             <div class="form-group">
                 <div class="row">
                     <div class="col-sm-1">
                         <label asp-for="customer.Age"></label>
-                     </div>
-                     <div class="col-sm-3">
+                    </div>
+                    <div class="col-sm-3">
                         <input asp-for="customer.Age" class="form-control">
-                     </div>
-                     <span asp-validation-for="customer.Age" class="text-danger"></span>
-                     <div class="col-sm-1">
-                        <label asp-for="customer.Telephone"></label>
-                     </div>
-                     <div class="col-sm-3">
-                        <input asp-for="customer.Telephone" class="form-control">
-                     </div>
-                     <span asp-validation-for="customer.Telephone" class="text-danger"></span>
+                    </div>
+                    <span asp-validation-for="customer.Age" class="text-danger"></span>
+                    <div class="col-sm-1">
+                       <label asp-for="customer.Telephone"></label>
+                    </div>
+                    <div class="col-sm-3">
+                       <input asp-for="customer.Telephone" class="form-control">
+                    </div>
+                    <span asp-validation-for="customer.Telephone" class="text-danger"></span>
                 </div>   
             </div>
             <div class="form-group">
                 <div class="row">
                     <div class="col-sm-1">
                         <label asp-for="customer.Address"></label>
-                     </div>
-                     <div class="col-sm-3">
-                        <input asp-for="customer.Address" class="form-control">
-                     </div>
-                     <span asp-validation-for="customer.Address" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-3">
+                       <input asp-for="customer.Address" class="form-control">
+                    </div>
+                    <span asp-validation-for="customer.Address" class="text-danger"></span>
                 </div>   
             </div>
             <br><hr class="hr">
@@ -89,20 +90,16 @@
                     <!-- La clase [offset-sm-4] corre el boton submit 4 columnas a la derecha -->
                     <div class="col-sm-2 offset-sm-4">
                         <!-- La clase [btn btn-primary] boton de bootstrap -->
-                        <input type="submit" value="Update" class="btn btn-primary form-control">
-                     </div>
-                     <div class="col-sm-2">
-                          <a asp-page="/Customers/QueryCustomers" class="btn btn-success form-control">Return</a>                      
-                     </div>
+                        <input type="submit" value="Edit" class="btn btn-primary form-control">
+                    </div>
+                    <div class="col-sm-2">
+                         <!-- Con la sentencia [asp-route-customerId="@Model.customer.Id"] vamos a la clase [Customer] y
+                         pasamos el Id del cliente a la pagina [Valuation.cshtml]-->
+                         <a asp-page="/Values/Valuation" asp-route-customerId="@Model.customer.Id" class="btn btn-success form-control">Record Valuation</a>  
+                         <!--a type="button" asp-page="/Values/Valuation" asp-route-customerId="@Model.customer.Id" class="btn btn-success form-control">Record Valuation</a-->                      
+                    </div>
                 </div>
             </div>
-            <!--br><hr class="hr">
-            <br>
-            <div class="form-group">
-                <div class="row">
-                     <div class="opcioncontra"><a href="">You don't have credentials? Create</a></div>
-                </div>   
-            </div-->
         </div>
     </form>
 </div>
