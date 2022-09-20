@@ -45,12 +45,12 @@ namespace Gym.App.Persistencia
             if (nutritionFound != null){
                 //Actualizamos los atributos de la clase [Exercise]
                  nutritionFound.Id = nutrition.Id;
-                 nutritionFound.Name = nutrition.Name;
                  nutritionFound.Eat = nutrition.Eat;
                  nutritionFound.NumberOfDays = nutrition.NumberOfDays;
-                 nutritionFound.Menu = nutrition.Menu;
-                 //Se debe modificar los datos de las relaciones que tiene la Clase [Exercise]   
-                 //routineFound.Exercise = routine.Exercise;   
+                 //nutritionFound.Menu = nutrition.Menu;
+                 //Se debe modificar los datos de las relaciones que tiene la Clase [Nutrition]   
+                 nutritionFound.Diets = nutrition.Diets;
+                 
                  conexion.SaveChanges();
             }
             return nutritionFound;

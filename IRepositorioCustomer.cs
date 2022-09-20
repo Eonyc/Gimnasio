@@ -11,6 +11,7 @@ namespace Gym.App.Persistencia
         Customer createCustomer(Customer customer);
         //R = Consultar
         Customer consultCustomer(int idCustomer);
+        Customer consultCustomerByDni(int dni);
         //Tenemos un objeto Enumerable que es una lst
         //Extraemos todos los datos de la tabla [Customers]
         IEnumerable <Customer> consultCustomers();

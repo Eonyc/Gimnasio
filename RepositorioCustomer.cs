@@ -43,13 +43,17 @@ namespace Gym.App.Persistencia
             //}
         }
 
+        public Customer consultCustomerByDni(int dni){
+            return conexion.Customers.FirstOrDefault(p=>p.Dni == dni);
+        }
+
         public IEnumerable <Customer> consultCustomers(){
             //Retorna todo lo que tiene la consulta
             return conexion.Customers;
         }
 
         public Customer updateCustomer(Customer customer){
-
+            
             var customerFound = conexion.Customers.FirstOrDefault(p=>p.Id == customer.Id);
             if (customerFound != null){
                 //Actualizamos los atributos de la clase [Customer]
@@ -59,12 +63,13 @@ namespace Gym.App.Persistencia
                  customerFound.Age = customer.Age;
                  customerFound.Telephone = customer.Telephone;
                  customerFound.Address = customer.Address;
+                 customerFound.Dni = customer.Dni;
                  //Se debe modificar los datos de las relaciones que tiene la Clase [Customer]   
-                 customerFound.Credential = customer.Credential;   
-                 customerFound.Tracking   = customer.Tracking;
-                 customerFound.Nutrition  = customer.Nutrition;
-                 customerFound.Value      = customer.Value;
-                 customerFound.Routine    = customer.Routine;
+                 customerFound.Credential   = customer.Credential;   
+                 customerFound.Trackinges   = customer.Trackinges;
+                 customerFound.Nutritions   = customer.Nutritions;
+                 customerFound.Values       = customer.Values;
+                 customerFound.Routines     = customer.Routines;
 
                  conexion.SaveChanges();
             }

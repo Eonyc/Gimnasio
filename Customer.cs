@@ -27,12 +27,12 @@ namespace Gym.App.Dominio
         //Clase Customer --> Credential (Multiplicidad 1:1)
         public Credential Credential {get; set;}
         //Clase  Customer --> Tracking (Multiplicidad 1:*)
-        public System.Collections.Generic.List<Tracking> Tracking {get; set;} 
+        public System.Collections.Generic.List<Tracking> Trackinges {get; set;} 
         //Clase  Customer --> Nutrition (Multiplicidad 1:*)
-        public System.Collections.Generic.List<Nutrition> Nutrition {get; set;}
+        public System.Collections.Generic.List<Nutrition> Nutritions {get; set;}
         //Clase  Customer --> Value (Multiplicidad 1:*)
-        public System.Collections.Generic.List<Value> Value {get; set;}
+        public System.Collections.Generic.List<Value> Values {get; set;}
         //Clase  Customer --> Routine (Multiplicidad 1:*)
-        public System.Collections.Generic.List<Routine> Routine {get; set;}
+        public System.Collections.Generic.List<Routine> Routines {get; set;}
     } 
 }    

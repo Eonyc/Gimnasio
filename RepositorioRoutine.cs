@@ -51,7 +51,7 @@ namespace Gym.App.Persistencia
                  routineFound.Duration = routine.Duration;
                  routineFound.Level = routine.Level;
                  //Se debe modificar los datos de las relaciones que tiene la Clase [Routine]   
-                 routineFound.Exercise = routine.Exercise;   
+                 routineFound.Exercises = routine.Exercises;   
 
                  conexion.SaveChanges();
             }
