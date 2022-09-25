@@ -4,12 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Authorization;
 
 using Gym.App.Dominio;
 using Gym.App.Persistencia;
 
 namespace Gym.App.Presentacion.Pages
 {
+    [Authorize]
     public class QueryByClientModel : PageModel
     {
         private readonly IRepositorioCustomer _repoCustomer;

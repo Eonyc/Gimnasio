@@ -1,10 +1,10 @@
 ﻿@page
-@model Gym.App.Presentacion.Pages.EditByClientModel
+@model Gym.App.Presentacion.Pages.EditByNutritionModel
 @{
 }
 
 <br>
-<h1 class="text-info" style="text-align: center;">Client Titration</h1>
+<h1 class="text-info" style="text-align: center;">Client Nutrition</h1>
 <div class="border">
     <form method="post">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -26,9 +26,9 @@
 </div>
 
 <div class="border">
-    <!-- Se redirecciona al metodo OnPost en la Clase [EditByClient.cshtml.cs]
-     que se llama [OnPostEdit] -->
-    <form method="post"  asp-page-handler="Edit">
+    <!-- Se redirecciona al metodo OnPost en la Clase [EditByNutrition.cshtml.cs]
+     que se llama [OnPostNutrition] -->
+    <form method="post"  asp-page-handler="Nutrition">
         <!-- Capturo el Id y el Dni del Cliente y lo oculto para que NO se 
         muestre en el formulario con el atributo [hidden]-->
         <input type="hidden" asp-for="customer.Id">
@@ -95,8 +95,7 @@
                     <div class="col-sm-2">
                          <!-- Con la sentencia [asp-route-customerId="@Model.customer.Id"] vamos a la clase [Customer] y
                          pasamos el Id del cliente a la pagina [Valuation.cshtml]-->
-                         <a asp-page="/Values/Valuation" asp-route-customerId="@Model.customer.Id" class="btn btn-success form-control">Titration Register</a>  
-                         <!--a type="button" asp-page="/Values/Valuation" asp-route-customerId="@Model.customer.Id" class="btn btn-success form-control">Record Valuation</a-->                      
+                         <a asp-page="/Nutrition/ClientNutrition" asp-route-customerId="@Model.customer.Id" class="btn btn-success form-control">Nutrition Register</a>  
                     </div>
                 </div>
             </div>

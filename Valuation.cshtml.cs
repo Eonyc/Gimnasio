@@ -27,15 +27,19 @@ namespace Gym.App.Presentacion.Pages
         }
 
         public async Task<IActionResult> OnPost(int customerId){
-            Console.WriteLine(customerId);
+            //Console.WriteLine(customerId);
             customer = _repoCustomer.consultCustomer(customerId);
             if (customer!=null){
                 if(customer.Values==null){
+                    //Si no tiene valoraciones, crea una lst
                     customer.Values = new List<Value>();
+                    //Agrega un 1mer elemeto a la lst
                     customer.Values.Add(value); 
                 }else{
+                    //Agrega a la lista una nueva evaluacion
                    customer.Values.Add(value);  
                 }
+                //Actualiza la BD con el cliente y su valoracion [1:*]
                 _repoCustomer.updateCustomer(customer);
                 return Page();
             }
